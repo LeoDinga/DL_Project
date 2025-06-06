@@ -4,7 +4,7 @@ The project covers the full workflow: data preparation, label mapping, model tra
 
 This repository contains three Jupyter notebooks (`.ipynb`):
 
-1. `extract_keypoints.ipynb` --> **Keypoint Extraction**  
+1. `extract_keypoints.ipynb` → **Keypoint Extraction**  
    Extracts pose keypoints from tennis videos using MediaPipe.  
    **This notebook must be run first**, as it generates the data required for the subsequent steps.
    
