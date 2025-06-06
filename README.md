@@ -4,14 +4,14 @@ The project covers the full workflow: data preparation, label mapping, model tra
 
 This repository contains three Jupyter notebooks (`.ipynb`):
 
-1. extract_keypoints.ipynb --> **Keypoint Extraction**  
+1. `extract_keypoints.ipynb` --> **Keypoint Extraction**  
    Extracts pose keypoints from tennis videos using MediaPipe.  
    **This notebook must be run first**, as it generates the data required for the subsequent steps.
    
-2. **train_type1.ipynb → Training Method 1: Full Network Training**  
+2. `train_type1.ipynb` → **Training Method 1: Full Network Training**  
    Trains the ST-GCN model from scratch or with all layers unfrozen, allowing the entire network to adapt to the tennis action recognition task using the MMAction2 library.
 
-3. **train_type2.ipynb → Training Method 2: Single-Layer Fine-Tuning**  
+3. `train_type2.ipynb` → **Training Method 2: Single-Layer Fine-Tuning**  
    Fine-tunes only the final layer(s) of the pre-trained ST-GCN model while keeping earlier layers frozen, focusing adaptation on the classification head for tennis actions with MMAction2.
 
 ---
