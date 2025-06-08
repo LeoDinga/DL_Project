@@ -1,6 +1,12 @@
 # DL_Project: Action Recognition in Tennis with ST-GCN and MMAction2
-This repository contains 3 different notebooks .ipynb, one where the keypoints are extracted and must be the first to run, another two regarding to the two types of training methods implemented.
+This repository contains 3 different notebooks `.ipynb`, one where the keypoints are extracted and must be the first to run, another two regarding to the two types of training methods implemented.
 The project covers the full workflow: data preparation, label mapping, model training, inference, and evaluation with confusion matrix visualization.
+
+Additionally, the repository includes two PDF documents:
+
+- A poster created to serve as a project presentation during a poster session, which is part of the course evaluation.
+
+- A final report corresponding to the written documentation of the project.
 
 This repository contains three Jupyter notebooks (`.ipynb`):
 
@@ -54,6 +60,7 @@ You will need:
 
 After training and evaluation, the notebooks provide performance metrics and confusion matrix plots to help analyze the model's classification accuracy.
 
+---
 
 ## License
 
@@ -89,4 +96,3 @@ See the LICENSE file for details.[1][5][9]
 - Scikit-learn: https://scikit-learn.org/
 - THETIS Dataset GitHub: https://github.com/THETIS-dataset/dataset
 - THETIS Dataset Paper: https://openaccess.thecvf.com/content_cvpr_workshops_2013/W08/papers/Gourgari_THETIS_Three_Dimensional_2013_CVPR_paper.pdf
-- [Choose a License](https://choosealicense.com/)
